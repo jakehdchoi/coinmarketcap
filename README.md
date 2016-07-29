@@ -1,12 +1,15 @@
 # coinmarketcap
 
-> dmd -run coinmarketcap.d 
-터미널에 텍스트를 뿌린다
+$ dmd -run coinmarketcap.d 
+>터미널에 텍스트를 뿌린다
 
-> dmd coinmarketcap.d
-컴파일하고 coinmarketcap 파일을 생성한다
+$ dmd coinmarketcap.d
+>컴파일하고 coinmarketcap 파일을 생성한다
 
-> dmd -run coinmarketcap > date +"%y%m%d-%H%M%S".csv
+$ ./coinmarketcap
+>실행한다
+
 OR
-> ./coinmarketcap > date +"%y%m%d-%H%M%S".csv
-해당 형식으로 파일을 저장한다. 근데 제대로 생성이 안 된다.
+
+$ dmd -run coinmarketcap 
+>바이너리 파일을 생성하지 않고 실행한다
