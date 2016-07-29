@@ -53,7 +53,7 @@ int main(string argv[]) {
 					r["percent_change_7d"]);
 	}
 	auto currentTime = Clock.currTime();
-	auto timeString = currentTime.toISOExtString();
+	auto timeString = currentTime.toISOString();
 
 	write(timeString ~ ".csv", writer.data);
 	return 0;
